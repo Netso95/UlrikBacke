@@ -1,0 +1,355 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+background-color: #f2f2f2;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+
+ .navbar {
+    background-color: transparent;
+}
+
+.container {
+}
+
+.navbar-nav {
+    text-align: center;
+}
+ .navbar:hover {
+    background-color: #333;
+} 
+
+
+.navbar-brand {
+    font-size: 2em;
+    
+}
+
+.dropdown-menu {
+    width: 100%;
+
+}
+
+.about-me h3 {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #333;
+}
+
+#carousel-example {
+    margin-bottom: 100px;
+}
+
+.title h1 {
+    font-size: 1em;
+    color: #777;
+}
+
+.title h1:hover {
+    color: #777;
+}
+
+.content-container {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    border-top: solid #777;
+}
+
+.jumbotron-title {
+    padding-top: 50px;
+    text-align: center;
+}
+.test {
+    margin-top: 1500px;
+}
+
+.portrait figure img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.portrait figure img:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.self-portrait img {
+    width: 25%;
+    height: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    border-radius: 10pc;
+}
+
+.mail {
+    margin: 0 auto;
+}
+.portrait-info {
+    text-align: center;
+}
+.portrait-text {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-container {
+    
+}
+
+.social-container {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.icons img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.icons img:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.thumbnail img {
+     -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+
+.image-info {
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.thumbnail img:hover {
+   -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.photoshop-title {
+    text-align: center;
+}
+
+.lennon-title {
+    margin-top: 50%px;
+}
+
+.final img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+}
+.look img {
+    transform: rotate(270deg);
+}
+
+.row img,
+.lennon img {
+     -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.row img:hover,
+.lennon img:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.info-africa {
+    text-align: center;
+}
+
+.info-caribbean {
+    text-align: center;
+}
+
+.info-lennon {
+    text-align: center;
+    padding-top: 5%;
+}
+.page-header {
+    text-align: center;
+}
+
+.thumb {
+    margin-top: 
+}
+.facebook img {
+    width: 5%;
+    height: 5%;
+    margin-left: 25%;
+}
+
+.instagram img {
+    width: 5%;
+    height: 5%;
+    margin-left: 10%;
+}
+
+.linkedin img {
+    width: 5%;
+    height: 5%;
+    margin-left: 10%;
+}
+
+.youtube img {
+    width: 5%;
+    height: 5%;
+    margin-left: 10%;
+}
+.social-title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-social-title  {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.border-container {
+    width: 100%;
+    border-bottom: solid #777;
+}
+
+.main-footer {
+    background-color: #333;
+}
+
+.main-footer p {
+    color: white;
+    font-size: 12px;
+}
+
+.col-md-6 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-left: solid #777;
+}
+
+.col-md-3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.middle {
+    border-left: solid #777;
+}
+
+.left {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 12px;
+    border-left: solid #333;
+}
+
+.caribbean {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) 
+{
+    .navbar-fixed-top {
+    top: auto;
+    position: fixed;
+    }
+}
+    
+    .nav > li.dropdown.open .dropdown-menu {
+    background-color: #333; 
+    text-align: center; 
+    left: 0; 
+    right:0;
+    color: white;
+    text-align: center;
+}
+
+.col-md-6 {
+    border-left: solid #333;
+    text-align: left;
+}
+
+.social-container {
+    margin-top: 100px;
+}
+
+
+.middle {
+    border-left: solid #777;
+}
+
+.mail {
+    text-align: center;
+    }
+
+.right {
+    text-align: left;
+}
+
+@media (min-width: 767px)
+{
+    .navbar-nav {
+        float: right; !important
+        padding-left: 50%;
+    }
+    
+    .navbar-brand {
+        margin-left: 100px;
+    }
+    
+    .dropdown {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .col-md-6 {
+    border-left: solid #777;
+    
+    }
+    
+    .right {
+        text-align: right;
+    }
+}
+
+
+
+
+
+
